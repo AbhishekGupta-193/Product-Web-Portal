@@ -17,4 +17,9 @@ export class HttpService {
     console.log("login API is ON");
     return this.http.get<User[]>(this.apiURL);
   }
+
+  signup(user:User):Observable<User>{
+    return this.http.post<User>(this.apiURL,user);
+  }
+  
 }

@@ -1,35 +1,50 @@
 {
-    "users": [
-      {
-        "name": "Abhishek",
-        "mob": "1234567890",
-        "email": "abhi@gmail.com",
-        "password": "abhi@123"
-      },
-      {
-        "name": "Jane Smith",
-        "mob": "0987654321",
-        "email": "jane.smith@example.com",
-        "password": "password456"
-      }
-    ],
-    "products": [
-      {
-        "name": "Product 1",
-        "description": "Description of Product 1",
-        "rating": 4.5,
-        "price": 99.99,
-        "delivery_days": 3,
-        "reviews": ["Great product!", "Very satisfied."]
-      },
-      {
-        "name": "Product 2",
-        "description": "Description of Product 2",
-        "rating": 4.0,
-        "price": 49.99,
-        "delivery_days": 5,
-        "reviews": ["Good value for money.", "Decent quality."]
-      }
-    ]
-  }
+  "users": [
+    {
+      "id": "f036",
+      "name": "funtus",
+      "mob": "7992417318",
+      "email": "funtus@gmail.com",
+      "password": "funtus@123"
+    },
+    {
+      "id": "6e2d",
+      "name": "Mayank Aryan",
+      "mob": "8998989780",
+      "email": "mayank@gmail.com",
+      "password": "mayank@123"
+    },
+    {
+      "id": "9512",
+      "name": "Ritika Negi",
+      "mob": "8976543212",
+      "email": "ritika@gmail.com",
+      "password": "ritika@123"
+    }
+  ],
   
+  "products": [
+    {
+      "name": "Product 1",
+      "description": "Description of Product 1",
+      "rating": 4.5,
+      "price": 99.99,
+      "delivery_days": 3,
+      "reviews": [
+        "Great product!",
+        "Very satisfied."
+      ]
+    },
+    {
+      "name": "Product 2",
+      "description": "Description of Product 2",
+      "rating": 4,
+      "price": 49.99,
+      "delivery_days": 5,
+      "reviews": [
+        "Good value for money.",
+        "Decent quality."
+      ]
+    }
+  ]
+}
