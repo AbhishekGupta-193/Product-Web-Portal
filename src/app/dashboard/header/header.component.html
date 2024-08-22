@@ -10,21 +10,21 @@
     
     <div class="filters">
       <label for="price">Price:</label>
-      <select id="price" class="filter-select">
+      <select id="price" class="filter-select" (change)="onFilterChange()">
         <option value="all">All</option>
         <option value="low">Low to High</option>
         <option value="high">High to Low</option>
       </select>
   
       <label for="rating">Rating:</label>
-      <select id="rating" class="filter-select">
+      <select id="rating" class="filter-select"(change)="onFilterChange()">
         <option value="all">All</option>
         <option value="high">High to Low</option>
         <option value="low">Low to High</option>
       </select>
   
       <label for="delivery">Delivery Time:</label>
-      <select id="delivery" class="filter-select">
+      <select id="delivery" class="filter-select" (change)="onFilterChange()">
         <option value="all">All</option>
         <option value="fast">Fastest</option>
         <option value="slow">Slowest</option>

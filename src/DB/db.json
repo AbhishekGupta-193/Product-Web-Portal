@@ -36,15 +36,22 @@
       "password": "may123"
     }
   ],
+
+
+
+
+
+
+  
   "products": [
     {
       "id": "1",
       "name": "PURITY OIL DROPS",
       "img": "/assets/product1.jpg",
-      "description": "Description of Product 1",
+      "description": "Pure essential oil drops for a calming and rejuvenating experience.",
       "rating": 4.5,
-      "price": 99.99,
-      "delivery_days": 3,
+      "price": 299.99,
+      "delivery_days": 13,
       "reviews": [
         "Great product!",
         "Very satisfied."
@@ -53,27 +60,27 @@
     {
       "id": "2",
       "name": "PERFUME",
-      "img": "/assets/product2.jpg",
-      "description": "Description of Product 2",
+      "img": "/assets/product12.jpg",
+      "description": "A long-lasting fragrance with a blend of floral and woody notes.",
       "rating": 4,
-      "price": 49.99,
-      "delivery_days": 5,
+      "price": 349.99,
+      "delivery_days": 15,
       "reviews": [
         "Good value for money.",
         "Decent quality.",
-        "too good to buy",
+        "Too good to buy",
         "Good product",
-        "must try product"
+        "Must try product"
       ]
     },
     {
       "id": "3",
       "name": "HAIR DROP OIL",
-      "img": "/assets/product3.jpg",
-      "description": "Description of Product 2",
+      "img": "/assets/product11.jpg",
+      "description": "Nourishing hair oil drops for silky and strong hair.",
       "rating": 4,
-      "price": 49.99,
-      "delivery_days": 5,
+      "price": 255.99,
+      "delivery_days": 8,
       "reviews": [
         "Good value for money.",
         "Decent quality.",
@@ -83,11 +90,11 @@
     {
       "id": "4",
       "name": "DOLICE PERFUME",
-      "img": "/assets/product4.jpg",
-      "description": "Description of Product 2",
+      "img": "/assets/product2.jpg",
+      "description": "A sophisticated perfume with a hint of citrus and musk.",
       "rating": 4,
-      "price": 49.99,
-      "delivery_days": 5,
+      "price": 169.99,
+      "delivery_days": 2,
       "reviews": [
         "Good value for money.",
         "Decent quality.",
@@ -97,11 +104,11 @@
     {
       "id": "5",
       "name": "NAIL POLISH",
-      "img": "/assets/product5.jpg",
-      "description": "Description of Product 2",
+      "img": "/assets/product3.jpg",
+      "description": "Vibrant nail polish with a glossy finish.",
       "rating": 4,
-      "price": 49.99,
-      "delivery_days": 5,
+      "price": 99.99,
+      "delivery_days": 9,
       "reviews": [
         "Good value for money.",
         "Decent quality."
@@ -110,11 +117,11 @@
     {
       "id": "6",
       "name": "MAKEUP KIT",
-      "img": "/assets/product6.jpg",
-      "description": "Description of Product 2",
+      "img": "/assets/product4.jpg",
+      "description": "Complete makeup kit with all essentials for a flawless look.",
       "rating": 4,
-      "price": 49.99,
-      "delivery_days": 5,
+      "price": 1074.99,
+      "delivery_days": 1,
       "reviews": [
         "Good value for money.",
         "Decent quality."
@@ -123,11 +130,11 @@
     {
       "id": "7",
       "name": "PLAY CROCKERIES",
-      "img": "/assets/product7.jpg",
-      "description": "Description of Product 2",
+      "img": "/assets/product5.jpg",
+      "description": "Durable and stylish play crockeries for kids.",
       "rating": 4,
-      "price": 49.99,
-      "delivery_days": 5,
+      "price": 1129.99,
+      "delivery_days": 20,
       "reviews": [
         "Good value for money.",
         "Decent quality."
@@ -136,11 +143,11 @@
     {
       "id": "8",
       "name": "WATCH",
-      "img": "/assets/product8.jpg",
-      "description": "Description of Product 2",
+      "img": "/assets/product6.jpg",
+      "description": "Elegant wristwatch with a leather strap.",
       "rating": 4,
-      "price": 49.99,
-      "delivery_days": 5,
+      "price": 2049.99,
+      "delivery_days": 11,
       "reviews": [
         "Good value for money.",
         "Decent quality."
@@ -149,11 +156,11 @@
     {
       "id": "9",
       "name": "FINEST WINE",
-      "img": "/assets/product9.jpg",
-      "description": "Description of Product 2",
+      "img": "/assets/product7.jpg",
+      "description": "Premium red wine with rich flavors.",
       "rating": 4,
-      "price": 49.99,
-      "delivery_days": 5,
+      "price": 999.99,
+      "delivery_days": 4,
       "reviews": [
         "Good value for money.",
         "Decent quality."
@@ -162,25 +169,25 @@
     {
       "id": "10",
       "name": "LIPS CARE",
-      "img": "/assets/product10.jpg",
-      "description": "Description of Product 2",
+      "img": "/assets/product8.jpg",
+      "description": "Hydrating lip balm for soft and smooth lips.",
       "rating": 4,
-      "price": 49.99,
-      "delivery_days": 5,
+      "price": 174.99,
+      "delivery_days": 3,
       "reviews": [
         "Good value for money.",
         "Decent quality.",
-        "Wow,What a shoes"
+        "Wow, what a product!"
       ]
     },
     {
       "id": "11",
       "name": "LAKME CREAM",
-      "img": "/assets/product3.jpg",
-      "description": "Description of Product 2",
+      "img": "/assets/product9.jpg",
+      "description": "Moisturizing cream for radiant and healthy skin.",
       "rating": 4,
-      "price": 49.99,
-      "delivery_days": 5,
+      "price": 124.99,
+      "delivery_days": 10,
       "reviews": [
         "Good value for money.",
         "Decent quality."
@@ -189,10 +196,10 @@
     {
       "id": "12",
       "name": "SPORTS SHOES",
-      "img": "/assets/product9.jpg",
-      "description": "Description of Product 2",
+      "img": "/assets/product10.jpg",
+      "description": "Comfortable and durable sports shoes for all activities.",
       "rating": 4,
-      "price": 49.99,
+      "price": 899.99,
       "delivery_days": 5,
       "reviews": [
         "Good value for money.",
@@ -200,4 +207,5 @@
       ]
     }
   ]
+
 }
