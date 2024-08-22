@@ -1,0 +1,74 @@
+mat-toolbar {
+    // border: 2px solid red; 
+    background-color: white;
+    border-bottom: 0.5px solid rgb(195, 186, 186);
+  }
+  
+  .header {
+    display: flex;
+    // border: 2px solid blue; 
+    // justify-content: space-between;
+    height: 80px;
+    box-shadow: 0 3px 3px 0px rgb(98, 152, 234);
+  }
+  
+  .keeplogo {
+    font-size: 30px;
+    color: rgb(139, 138, 138);
+    display: flex;
+    // border: 2px solid black; 
+    // width: 15%;
+  }
+  
+  .searchBar {
+    display: flex;
+    padding: 5px;
+    background-color: rgb(240, 233, 233);
+    border-radius: 10px;
+    margin-top: 4px;
+    // border: 2px solid black; 
+    width: 35%;
+    margin: auto;
+    // width: inherit;
+    // border: 2px solid red;
+  }
+  
+  .searchinput {
+    background-color: rgb(240, 233, 233);
+    border-color: rgb(240, 233, 233);
+    border: none;
+    outline: none;
+    width: 300px;
+    font-size: 20px;
+  }
+  
+  .material-icons {
+    color: rgb(139, 138, 138);
+    padding: 2px 1px 2px 2px;
+    font-size: 30px;
+    margin-top: 4px;
+  }
+  
+  .logo {
+    height: 70px;
+    // width: 170px;
+  }
+  
+  .filters {
+    // border: 2px solid red;
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    // margin-right: 20px;
+    width: 48%;
+    margin-right: 0;
+  }
+  
+  .filter-select {
+    // border: 2px solid red;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(195, 186, 186);
+    background-color: white;
+  }
+  

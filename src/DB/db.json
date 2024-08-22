@@ -22,10 +22,11 @@
       "password": "ritika@123"
     }
   ],
-  
+
   "products": [
     {
-      "name": "Product 1",
+      "name": "PURITY OIL DROPS",
+      "img":"/assets/product1.jpg",
       "description": "Description of Product 1",
       "rating": 4.5,
       "price": 99.99,
@@ -36,7 +37,8 @@
       ]
     },
     {
-      "name": "Product 2",
+      "name": "PERFUME",
+      "img":"/assets/product2.jpg",
       "description": "Description of Product 2",
       "rating": 4,
       "price": 49.99,
@@ -45,6 +47,126 @@
         "Good value for money.",
         "Decent quality."
       ]
-    }
+    },
+    {
+      "name": "HAIR DROP OIL",
+      "img":"/assets/product3.jpg",
+      "description": "Description of Product 2",
+      "rating": 4,
+      "price": 49.99,
+      "delivery_days": 5,
+      "reviews": [
+        "Good value for money.",
+        "Decent quality."
+      ]
+    },
+    {
+      "name": "DOLICE PERFUME",
+      "img":"/assets/product4.jpg",
+      "description": "Description of Product 2",
+      "rating": 4,
+      "price": 49.99,
+      "delivery_days": 5,
+      "reviews": [
+        "Good value for money.",
+        "Decent quality."
+      ]
+    },
+    {
+      "name": "NAIL POLISH",
+      "img":"/assets/product5.jpg",
+      "description": "Description of Product 2",
+      "rating": 4,
+      "price": 49.99,
+      "delivery_days": 5,
+      "reviews": [
+        "Good value for money.",
+        "Decent quality."
+      ]
+    },
+    {
+      "name": "MAKEUP KIT",
+      "img":"/assets/product6.jpg",
+      "description": "Description of Product 2",
+      "rating": 4,
+      "price": 49.99,
+      "delivery_days": 5,
+      "reviews": [
+        "Good value for money.",
+        "Decent quality."
+      ]
+    },
+    {
+      "name": "PLAY CROCKERIES",
+      "img":"/assets/product7.jpg",
+      "description": "Description of Product 2",
+      "rating": 4,
+      "price": 49.99,
+      "delivery_days": 5,
+      "reviews": [
+        "Good value for money.",
+        "Decent quality."
+      ]
+    },
+    {
+      "name": "WATCH",
+      "img":"/assets/product8.jpg",
+      "description": "Description of Product 2",
+      "rating": 4,
+      "price": 49.99,
+      "delivery_days": 5,
+      "reviews": [
+        "Good value for money.",
+        "Decent quality."
+      ]
+    },
+    {
+      "name": "FINEST WINE",
+      "img":"/assets/product9.jpg",
+      "description": "Description of Product 2",
+      "rating": 4,
+      "price": 49.99,
+      "delivery_days": 5,
+      "reviews": [
+        "Good value for money.",
+        "Decent quality."
+      ]
+    },
+    {
+      "name": "LIPS CARE",
+      "img":"/assets/product10.jpg",
+      "description": "Description of Product 2",
+      "rating": 4,
+      "price": 49.99,
+      "delivery_days": 5,
+      "reviews": [
+        "Good value for money.",
+        "Decent quality."
+      ]
+    },
+    {
+        "name": "LAKME CREAM",
+        "img":"/assets/product3.jpg",
+        "description": "Description of Product 2",
+        "rating": 4,
+        "price": 49.99,
+        "delivery_days": 5,
+        "reviews": [
+          "Good value for money.",
+          "Decent quality."
+        ]
+      },
+      {
+        "name": "SPORTS SHOES",
+        "img":"/assets/product9.jpg",
+        "description": "Description of Product 2",
+        "rating": 4,
+        "price": 49.99,
+        "delivery_days": 5,
+        "reviews": [
+          "Good value for money.",
+          "Decent quality."
+        ]
+      }
   ]
 }

@@ -9,6 +9,7 @@ import { User } from '../interface/user';
 })
 export class HttpService {
   private apiURL='http://localhost:3000/users';
+  private apiURL2='http://localhost:3000/products';
 
   constructor(private http:HttpClient) { }
 
@@ -21,5 +22,10 @@ export class HttpService {
   signup(user:User):Observable<User>{
     return this.http.post<User>(this.apiURL,user);
   }
-  
+
+  getProducts(){
+    console.log("Product API is ON");
+    return this.http.get<User[]>(this.apiURL2);
+  }
+
 }

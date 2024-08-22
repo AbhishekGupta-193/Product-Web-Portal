@@ -1,0 +1,25 @@
+
+.notesContainer{
+    // border: 2px solid red; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.example-card {
+    max-width: 400px;
+    margin: 4%;
+    // border: 2px solid blue;
+    // height: 200px;
+    // width: 200px;
+  }
+  mat-card{
+    // border: 2px solid blue;
+    // height: 200px;
+    width: 300px;
+  }
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }

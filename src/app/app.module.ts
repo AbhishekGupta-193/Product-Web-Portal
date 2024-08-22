@@ -13,14 +13,17 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AngularMaterialModule } from './angular-material/angular-material/angular-material.module';
 
 import { HttpClientModule } from '@angular/common/http';
+import { ProductDetailDialogComponent } from './dashboard/product-detail-dialog/product-detail-dialog.component';
 
+import { MatDialogModule } from '@angular/material/dialog';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     SignupComponent,
     HeaderComponent,
-    CardContainerComponent
+    CardContainerComponent,
+    ProductDetailDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +31,8 @@ import { HttpClientModule } from '@angular/common/http';
     BrowserAnimationsModule,
     ReactiveFormsModule,
     AngularMaterialModule,
-    HttpClientModule
+    HttpClientModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
