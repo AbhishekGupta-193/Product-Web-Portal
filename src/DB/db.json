@@ -20,13 +20,20 @@
       "mob": "8976543212",
       "email": "ritika@gmail.com",
       "password": "ritika@123"
+    },
+    {
+      "id": "81b2",
+      "name": "Roshni",
+      "mob": "7979797977",
+      "email": "roshni@gmail.com",
+      "password": "roshni@1234"
     }
   ],
-
   "products": [
     {
+      "id": "1",
       "name": "PURITY OIL DROPS",
-      "img":"/assets/product1.jpg",
+      "img": "/assets/product1.jpg",
       "description": "Description of Product 1",
       "rating": 4.5,
       "price": 99.99,
@@ -37,44 +44,52 @@
       ]
     },
     {
+      "id": "2",
       "name": "PERFUME",
-      "img":"/assets/product2.jpg",
+      "img": "/assets/product2.jpg",
       "description": "Description of Product 2",
       "rating": 4,
       "price": 49.99,
       "delivery_days": 5,
       "reviews": [
         "Good value for money.",
-        "Decent quality."
+        "Decent quality.",
+        "too good to buy",
+        "Good product"
       ]
     },
     {
+      "id": "3",
       "name": "HAIR DROP OIL",
-      "img":"/assets/product3.jpg",
+      "img": "/assets/product3.jpg",
       "description": "Description of Product 2",
       "rating": 4,
       "price": 49.99,
       "delivery_days": 5,
       "reviews": [
         "Good value for money.",
-        "Decent quality."
+        "Decent quality.",
+        "Superb"
       ]
     },
     {
+      "id": "4",
       "name": "DOLICE PERFUME",
-      "img":"/assets/product4.jpg",
+      "img": "/assets/product4.jpg",
       "description": "Description of Product 2",
       "rating": 4,
       "price": 49.99,
       "delivery_days": 5,
       "reviews": [
         "Good value for money.",
-        "Decent quality."
+        "Decent quality.",
+        "Great"
       ]
     },
     {
+      "id": "5",
       "name": "NAIL POLISH",
-      "img":"/assets/product5.jpg",
+      "img": "/assets/product5.jpg",
       "description": "Description of Product 2",
       "rating": 4,
       "price": 49.99,
@@ -85,8 +100,9 @@
       ]
     },
     {
+      "id": "6",
       "name": "MAKEUP KIT",
-      "img":"/assets/product6.jpg",
+      "img": "/assets/product6.jpg",
       "description": "Description of Product 2",
       "rating": 4,
       "price": 49.99,
@@ -97,8 +113,9 @@
       ]
     },
     {
+      "id": "7",
       "name": "PLAY CROCKERIES",
-      "img":"/assets/product7.jpg",
+      "img": "/assets/product7.jpg",
       "description": "Description of Product 2",
       "rating": 4,
       "price": 49.99,
@@ -109,8 +126,9 @@
       ]
     },
     {
+      "id": "8",
       "name": "WATCH",
-      "img":"/assets/product8.jpg",
+      "img": "/assets/product8.jpg",
       "description": "Description of Product 2",
       "rating": 4,
       "price": 49.99,
@@ -121,8 +139,9 @@
       ]
     },
     {
+      "id": "9",
       "name": "FINEST WINE",
-      "img":"/assets/product9.jpg",
+      "img": "/assets/product9.jpg",
       "description": "Description of Product 2",
       "rating": 4,
       "price": 49.99,
@@ -133,8 +152,23 @@
       ]
     },
     {
+      "id": "10",
       "name": "LIPS CARE",
-      "img":"/assets/product10.jpg",
+      "img": "/assets/product10.jpg",
+      "description": "Description of Product 2",
+      "rating": 4,
+      "price": 49.99,
+      "delivery_days": 5,
+      "reviews": [
+        "Good value for money.",
+        "Decent quality.",
+        "Wow,What a shoes"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "LAKME CREAM",
+      "img": "/assets/product3.jpg",
       "description": "Description of Product 2",
       "rating": 4,
       "price": 49.99,
@@ -145,28 +179,17 @@
       ]
     },
     {
-        "name": "LAKME CREAM",
-        "img":"/assets/product3.jpg",
-        "description": "Description of Product 2",
-        "rating": 4,
-        "price": 49.99,
-        "delivery_days": 5,
-        "reviews": [
-          "Good value for money.",
-          "Decent quality."
-        ]
-      },
-      {
-        "name": "SPORTS SHOES",
-        "img":"/assets/product9.jpg",
-        "description": "Description of Product 2",
-        "rating": 4,
-        "price": 49.99,
-        "delivery_days": 5,
-        "reviews": [
-          "Good value for money.",
-          "Decent quality."
-        ]
-      }
+      "id": "12",
+      "name": "SPORTS SHOES",
+      "img": "/assets/product9.jpg",
+      "description": "Description of Product 2",
+      "rating": 4,
+      "price": 49.99,
+      "delivery_days": 5,
+      "reviews": [
+        "Good value for money.",
+        "Decent quality."
+      ]
+    }
   ]
 }

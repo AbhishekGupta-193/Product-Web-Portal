@@ -13,19 +13,22 @@ export class HttpService {
 
   constructor(private http:HttpClient) { }
 
-
+  //USED IN LOGIN COMPONENT
   login(email: string, password: string): Observable<any> {
     console.log("login API is ON");
     return this.http.get<User[]>(this.apiURL);
   }
 
+  //USED IN SIGNUP COMPONENT
   signup(user:User):Observable<User>{
     return this.http.post<User>(this.apiURL,user);
   }
 
+  //USED IN CARD-CONTAINER COMPONENT
   getProducts(){
     console.log("Product API is ON");
     return this.http.get<User[]>(this.apiURL2);
   }
+
 
 }

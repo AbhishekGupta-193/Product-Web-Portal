@@ -9,12 +9,12 @@ import { MatDialog } from '@angular/material/dialog';
   styleUrls: ['./card-container.component.scss']
 })
 export class CardContainerComponent {
-  // cards = Array(10).fill(0);
   products: any;
 
   constructor(private http:HttpService,private dialog:MatDialog){}
 
   ngOnInit(){
+    //API CALL TO GET THE PRODUCTS DATA
     this.http.getProducts().subscribe({
       next: (res: any) => {
         this.products=res;

@@ -1,18 +1,19 @@
 <h1 mat-dialog-title>{{data.name}}</h1>
 <div mat-dialog-content>
-  <img [src]="data.img" alt="Product Image" style="width: 100%;">
-  <p>{{data.description}}</p>
-  <p><strong>Price:</strong> {{data.price}}</p>
-  <p><strong>Rating:</strong> {{data.rating}}</p>
-  <p><strong>Delivery Days:</strong> {{data.delivery_days}}</p>
-  <p><strong>Reviews:</strong></p>
-  <ul>
-    <li *ngFor="let review of data.reviews">{{review}}</li>
-  </ul>
+    <img [src]="data.img" alt="Product Image" style="width: 100%;">
+    <p>{{data.description}}</p>
+    <p><strong>Price:</strong> {{data.price}}</p>
+    <p><strong>Rating:</strong> {{data.rating}}</p>
+    <p><strong>Delivery Days:</strong> {{data.delivery_days}}</p>
+    <p><strong>Reviews:</strong></p>
+    <ul>
+        <li *ngFor="let review of data.reviews">{{review}}</li>
+    </ul>
 </div>
 <div mat-dialog-actions>
+    <input *ngIf="isBtnClicked" class="addReview" type="text" [(ngModel)]="newReview"/>
     <div class="buttons">
-  <button mat-button mat-dialog-close>Close</button>
-  <button mat-button mat-dialog-close>Add Review</button>
-</div>
+        <button mat-button mat-dialog-close >Close</button>
+        <button mat-button mat-dialog-close (click)="addReview()">Add Review</button>
+    </div>
 </div>

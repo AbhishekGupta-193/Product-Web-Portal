@@ -16,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProductDetailDialogComponent } from './dashboard/product-detail-dialog/product-detail-dialog.component';
 
 import { MatDialogModule } from '@angular/material/dialog';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +33,8 @@ import { MatDialogModule } from '@angular/material/dialog';
     ReactiveFormsModule,
     AngularMaterialModule,
     HttpClientModule,
-    MatDialogModule
+    MatDialogModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
