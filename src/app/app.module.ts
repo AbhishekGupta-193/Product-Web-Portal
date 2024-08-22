@@ -17,6 +17,7 @@ import { ProductDetailDialogComponent } from './dashboard/product-detail-dialog/
 
 import { MatDialogModule } from '@angular/material/dialog';
 import { FormsModule } from '@angular/forms';
+import { SearchPipe } from './pipes/search.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { FormsModule } from '@angular/forms';
     SignupComponent,
     HeaderComponent,
     CardContainerComponent,
-    ProductDetailDialogComponent
+    ProductDetailDialogComponent,
+    SearchPipe
   ],
   imports: [
     BrowserModule,

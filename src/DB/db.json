@@ -27,6 +27,13 @@
       "mob": "7979797977",
       "email": "roshni@gmail.com",
       "password": "roshni@1234"
+    },
+    {
+      "id": "5a5e",
+      "name": "Mayank",
+      "mob": "7050783073",
+      "email": "may@gmail.com",
+      "password": "may123"
     }
   ],
   "products": [
@@ -55,7 +62,8 @@
         "Good value for money.",
         "Decent quality.",
         "too good to buy",
-        "Good product"
+        "Good product",
+        "must try product"
       ]
     },
     {

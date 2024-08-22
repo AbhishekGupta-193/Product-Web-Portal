@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { HttpService } from 'src/app/services/http.service';
 import { ProductDetailDialogComponent } from '../product-detail-dialog/product-detail-dialog.component';
 import { MatDialog } from '@angular/material/dialog';
-
+import { SearchService } from 'src/app/services/search.service';
 @Component({
   selector: 'app-card-container',
   templateUrl: './card-container.component.html',
@@ -10,8 +10,8 @@ import { MatDialog } from '@angular/material/dialog';
 })
 export class CardContainerComponent {
   products: any;
-
-  constructor(private http:HttpService,private dialog:MatDialog){}
+  searchedItem:string='';
+  constructor(private http:HttpService,private dialog:MatDialog,private searchService:SearchService){}
 
   ngOnInit(){
     //API CALL TO GET THE PRODUCTS DATA
@@ -24,6 +24,12 @@ export class CardContainerComponent {
         alert("Failed");
         console.log(err);
       }
+    })
+
+    
+    //SearchService for Search Bar in Header
+    this.searchService.currentData.subscribe(data => {
+      this.searchedItem = data;
     })
   }
 
