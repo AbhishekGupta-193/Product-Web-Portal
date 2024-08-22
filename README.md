@@ -1,27 +1,27 @@
-# ProductWebPortal
+# ProductWebPortal (Angular Workshop)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Task3: Product Web Portal
+ - create a login & signup component for user. 
+ - after successful login user should navigate to dashboard
+ - dashboard will be consists of header with search bar below that filter tab which will have options like price, rating, delivery days etc. 
+    & below that one container which will contains all products in card format
+ - for product data required properties are name, description, price, rating, review, delivery days, seller etc.
+ - Whenever user clicks on product card a detailed view of product should open with all product details
+ - Whenever a user selects any filter from the filter tab, that time product list needs to update according to filter & it should reflect in the UI.
+     This change needs to do in UI only
+ - In product details view components one input field needs to add to add review. When user clicks on submit new review should get added for that book by
+     calling api & changes need to reflect in UI as well
+ - In header component search bar whatever query user will enter based on that data need to be filter in UI
+ 
+## Data required
+- user data - list of user object - user object will have properties like name, mob, email, password etc
+- product data - list of product object
+        product object structure = {
+               name : string,
+               description: string,
+               rating : number,
+               price: number,
+               delivery_days: number,
+               reviews : string [ ]
+        }
