@@ -1,0 +1,35 @@
+{
+    "users": [
+      {
+        "name": "John Doe",
+        "mob": "1234567890",
+        "email": "john.doe@example.com",
+        "password": "password123"
+      },
+      {
+        "name": "Jane Smith",
+        "mob": "0987654321",
+        "email": "jane.smith@example.com",
+        "password": "password456"
+      }
+    ],
+    "products": [
+      {
+        "name": "Product 1",
+        "description": "Description of Product 1",
+        "rating": 4.5,
+        "price": 99.99,
+        "delivery_days": 3,
+        "reviews": ["Great product!", "Very satisfied."]
+      },
+      {
+        "name": "Product 2",
+        "description": "Description of Product 2",
+        "rating": 4.0,
+        "price": 49.99,
+        "delivery_days": 5,
+        "reviews": ["Good value for money.", "Decent quality."]
+      }
+    ]
+  }
+  
