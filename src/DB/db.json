@@ -1,10 +1,10 @@
 {
     "users": [
       {
-        "name": "John Doe",
+        "name": "Abhishek",
         "mob": "1234567890",
-        "email": "john.doe@example.com",
-        "password": "password123"
+        "email": "abhi@gmail.com",
+        "password": "abhi@123"
       },
       {
         "name": "Jane Smith",

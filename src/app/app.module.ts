@@ -12,7 +12,7 @@ import { CardContainerComponent } from './dashboard/card-container/card-containe
 import { ReactiveFormsModule } from '@angular/forms';
 import { AngularMaterialModule } from './angular-material/angular-material/angular-material.module';
 
-
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,7 +27,8 @@ import { AngularMaterialModule } from './angular-material/angular-material/angul
     AppRoutingModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
-    AngularMaterialModule
+    AngularMaterialModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
