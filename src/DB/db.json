@@ -34,15 +34,15 @@
       "mob": "7050783073",
       "email": "may@gmail.com",
       "password": "may123"
+    },
+    {
+      "id": "31ab",
+      "name": "Ritika Negi",
+      "mob": "9811461310",
+      "email": "sundari@gmail.com",
+      "password": "Ritika@13"
     }
   ],
-
-
-
-
-
-
-  
   "products": [
     {
       "id": "1",
@@ -70,7 +70,8 @@
         "Decent quality.",
         "Too good to buy",
         "Good product",
-        "Must try product"
+        "Must try product",
+        "not good"
       ]
     },
     {
@@ -207,5 +208,4 @@
       ]
     }
   ]
-
 }

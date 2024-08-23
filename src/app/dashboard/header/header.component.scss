@@ -1,5 +1,7 @@
+
 mat-toolbar {
     // border: 2px solid red; 
+    width: 100%;
     background-color: white;
     border-bottom: 0.5px solid rgb(195, 186, 186);
   }
@@ -7,7 +9,6 @@ mat-toolbar {
   .header {
     display: flex;
     // border: 2px solid blue; 
-    // justify-content: space-between;
     height: 80px;
     box-shadow: 0 3px 3px 0px rgb(98, 152, 234);
   }
@@ -17,11 +18,16 @@ mat-toolbar {
     color: rgb(139, 138, 138);
     display: flex;
     // border: 2px solid black; 
-    // width: 15%;
+    width: 10%;
     height: 70px;
 
   }
-  
+  .box{
+    // border: 2px solid red;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+  }
   .searchBar {
     display: flex;
     padding: 5px;
@@ -29,19 +35,16 @@ mat-toolbar {
     border-radius: 4px;
     margin-top: 4px;
     border: 0.5px solid black; 
-    width: 55%;
+    width: 45%;
     margin: auto;
     margin-left: 2%;
-    // width: inherit;
-    // border: 2px solid red;
-
   }
   
   .searchinput {
+    outline: none;
     background-color: white;
     border-color: rgb(240, 233, 233);
     border: none;
-    // outline: none;
     width: 300px;
     font-size: 20px;
     padding: 2px 1px 2px 2px;
@@ -63,16 +66,18 @@ mat-toolbar {
     padding-right: 35px;
     display: flex;
     align-items: center;
-    // gap: 1%;
     // margin-right: 20px;
-    width: 50%;
+    width: 60%;
     margin-right: 2%;
     margin-left: 2%;
     justify-content: space-between;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
   }
- 
+ .filter{
+  display: flex;
+  flex-direction: row;
+ }
   label{
     font-size: 16px;
     width: 40%;
@@ -92,7 +97,7 @@ mat-toolbar {
     border-radius: 50%;
     display: flex;
     align-items: center;
-    margin-right: 1%;
+    margin-left: 4%;
   }
   .profile:hover{
     background-color: rgb(179, 174, 174);
@@ -100,4 +105,63 @@ mat-toolbar {
   .profile img{
     height: 30px;
     width: 30px;
+  }
+
+.option{
+  border: 2px solid blue;
+}
+
+
+
+//MEDIA QUERIES 
+
+  @media (max-width: 950px) {
+    .filters {
+      padding: 2px;
+      padding-top: 0;
+      height: 70%;
+    }
+    .filter {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 0.5%; 
+    }
+  
+    .filter label {
+      margin-bottom:0.5%; 
+    }
+    .filter-select{
+      width: 95%;
+    }
+  }
+  
+  @media (max-width: 800px) and (min-width: 100px) {
+    .header{
+      height: 150px;
+    }
+    .keeplogo{
+      width: 25%;
+    }
+     .box {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 60%;
+      margin: 0;
+      // border: 2px solid red;
+    }
+  .searchBar{
+    width: 98%;
+  }
+  .filters{
+    width: 100%;
+  }
+  .profile{
+    margin-left: 5%;
+  }
+  .option{
+    border: 2px solid red;
+    height: 4px;
+    width: 4px;
+  }
+ 
   }

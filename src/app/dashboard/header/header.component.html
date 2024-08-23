@@ -1,45 +1,46 @@
+<div class="container">
 <mat-toolbar class="header">
-      <img class="keeplogo" src="../assets/logo.jpg">
-  
-    <div class="searchBar">
-      <i class='material-icons'></i>
-      <input class="searchinput" placeholder="Search here..." type="text" id="search" [(ngModel)]="searchedItem" (keyup)="onSearch()"/>
-    </div>
-    
-    <div class="filters">
-      <div class="filter">
+  <img class="keeplogo" src="../assets/logo.jpg">
+<div class="box">
+  <div class="searchBar">
+    <i class='material-icons'></i>
+    <input class="searchinput" placeholder="Search here..." type="text" id="search" [(ngModel)]="searchedItem"
+      (keyup)="onSearch()" />
+  </div>
+
+  <div class="filters">
+    <div class="filter">
       <label for="price">Price:</label>
       <select id="price" class="filter-select" (change)="onFilterChange()">
-        <option value="all">All</option>
-        <option value="low">Low to High</option>
-        <option value="high">High to Low</option>
+        <option class="option"value="all">All</option>
+        <option class="option" value="low">Low to High</option>
+        <option class="option" value="high">High to Low</option>
       </select>
     </div>
     <div class="filter">
       <label for="rating">Rating:</label>
-      <select id="rating" class="filter-select"(change)="onFilterChange()">
-        <option value="all">All</option>
-        <option value="high">High to Low</option>
-        <option value="low">Low to High</option>
+      <select id="rating" class="filter-select" (change)="onFilterChange()">
+        <option class="option" value="all">All</option>
+        <option class="option" value="high">High to Low</option>
+        <option class="option"value="low">Low to High</option>
       </select>
     </div>
 
     <div class="filter">
-      <label for="delivery">Delivery Time:</label>
+      <label for="delivery">Delivery:</label>
       <select id="delivery" class="filter-select" (change)="onFilterChange()">
-        <option value="all">All</option>
-        <option value="fast">Fastest</option>
-        <option value="slow">Slowest</option>
+        <option class="option" value="all">All</option>
+        <option class="option" value="fast">Fastest</option>
+        <option class="option" value="slow">Slowest</option>
       </select>
     </div>
   </div>
-
+</div>
   <div class="profile">
     <img src="../assets/profile.png" alt="logo">
   </div>
-  </mat-toolbar>
-  
+</mat-toolbar>
+</div>
 
-  <app-card-container></app-card-container>
-  <router-outlet></router-outlet>
-  
+<app-card-container></app-card-container>
+<router-outlet></router-outlet>
