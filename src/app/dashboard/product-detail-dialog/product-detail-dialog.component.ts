@@ -13,7 +13,7 @@ export class ProductDetailDialogComponent {
   newReview: string = '';
   isBtnClicked:boolean=true;
 
-  //FUNCTION TO ADD REVIEW
+  //FUNCTION TO ADD REVIEW USING API PATCH REQUEST
   addReview() {
     this.isBtnClicked=true;
     if (this.newReview.trim()) {
