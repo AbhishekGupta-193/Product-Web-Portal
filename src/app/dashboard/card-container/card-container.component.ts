@@ -43,6 +43,7 @@ export class CardContainerComponent {
     });
   }
 
+  //DATA PASSING TO DIALOG BOX
   openDialog(product: any): void {
     this.dialog.open(ProductDetailDialogComponent, {
       data: product

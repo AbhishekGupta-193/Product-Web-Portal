@@ -53,3 +53,25 @@ input{
     box-shadow: 0 0px 5px 0px white;
 
 }
+
+
+
+
+@media (max-width: 1100px) and (min-width: 600px) {
+    .container{
+        margin: auto;
+    }
+  }
+
+@media (max-width: 600px) and (min-width: 0) {
+    .container{
+        margin: auto;
+    }
+    mat-form-field{
+        width: 95%;
+    }
+    .submit{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+  }
